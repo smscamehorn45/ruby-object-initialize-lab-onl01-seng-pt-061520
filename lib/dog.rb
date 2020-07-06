@@ -13,5 +13,24 @@ class Dog
   end
 end
 
-fido = Dog.new
+
+
+class Dog 
+  def initiliaze(name)
+    @name = name
+  end
+  
+  def name=(name)
+    @name = name
+  end
+  
+  
+  def name
+    @name
+  end
+end
+
+
+
+fido = Dog.new(fido)
 fido.breed
